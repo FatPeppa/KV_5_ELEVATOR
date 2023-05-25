@@ -13,11 +13,7 @@ using namespace std;
 cl_application::cl_application(cl_base* parent) : cl_base(parent, "root") {}
 
 void cl_application::bild_tree_objects() {
-	//sdfsiofhalishflasd
-	//asdfadsfa
 	cl_floor * new_floor;
-	cl_floor* ssdfsdf;
-	cl_lift * ww3;
 
 	cl_input * input_obj = new cl_input("INPUT_OBJECT", this);
 	cl_controller * controller_obj = new cl_controller("CONTROLLER_OBJECT", this);
