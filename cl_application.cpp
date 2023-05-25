@@ -14,6 +14,10 @@ cl_application::cl_application(cl_base* parent) : cl_base(parent, "root") {}
 
 void cl_application::bild_tree_objects() {
 	cl_floor * new_floor;
+	//sdcsdcsc
+	//sdiwjeofjweofij
+	cl_floor* wefhwoefhoeho;
+
 
 	cl_input * input_obj = new cl_input("INPUT_OBJECT", this);
 	cl_controller * controller_obj = new cl_controller("CONTROLLER_OBJECT", this);
